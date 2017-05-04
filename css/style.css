@@ -1,0 +1,89 @@
+body {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+}
+body .container {
+  background-color: #82b8d8;
+  height: 880px;
+}
+body .contactlist_section {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  float: right;
+  width: 320px;
+  border: 1px solid #47494c;
+}
+body .contactlist_section h4 {
+  cursor: pointer;
+  border-bottom: 1px solid #47494c;
+  background-color: #47494c;
+  color: #fefffc;
+  padding: 10px 10px;
+  margin: 0px;
+}
+body .contactlist_section ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+body .contactlist_section ul li {
+  padding: 5px 15px 5px 5px;
+  border-bottom: 1px solid #e5e0e0;
+  color: #47494c;
+  font-weight: bold;
+}
+body .contactlist_section ul li img {
+  margin-right: 10px;
+  width: 45px;
+}
+body .contactlist_section ul li:nth-child(odd) {
+  background-color: #fcfcfc;
+}
+body .contactlist_section ul li:nth-child(odd) span {
+  background-color: #85b524;
+  width: 10px;
+  height: 10px;
+  float: right;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-top: 17px;
+}
+body .contactlist_section ul li:nth-child(even) {
+  background-color: #f4f4f4;
+}
+body .contactlist_section ul li:nth-child(even) span {
+  background-color: #c8cace;
+  width: 10px;
+  height: 10px;
+  float: right;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-top: 17px;
+}
+body .contactlist_section ul li:last-child {
+  padding: 0px;
+}
+body .contactlist_section ul li input {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  padding: 5px 5px 5px 30px;
+  background-color: #eaeaed;
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: left 8px center;
+}
+body .contactlist_section ul li input:hover {
+  background-color: #f9f9f9;
+}
+body .contactlist_section ul li input:active,
+body .contactlist_section ul li input:focus {
+  border: none;
+  box-shadow: none;
+}
